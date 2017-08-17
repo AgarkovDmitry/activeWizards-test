@@ -1,13 +1,13 @@
 import React from 'react'
 
 import styles from './style.less'
-import MainMap from 'components/maps/main-map'
+import Product from 'components/product'
 
 export default () => (
   <div className={styles.page}>
     <div className={styles.body}>
       <div className={styles.center}>
-        <MainMap/>
+        <Product/>
       </div>
     </div>
   </div>
